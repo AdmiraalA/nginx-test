@@ -6,9 +6,9 @@ server {
     listen 443 ssl;
     listen [::]:443 ssl;
 
-    # SSL Certificate paths - REPLACE_PATH_TO_CERT with actual paths
-    ssl_certificate REPLACE_PATH_TO_CERT/fullchain.pem;
-    ssl_certificate_key REPLACE_PATH_TO_CERT/privkey.pem;
+    # SSL Certificate paths - 
+    ssl_certificate /fullchain.pem;
+    ssl_certificate_key /privkey.pem;
 
     # Other SSL configurations
     ssl_protocols TLSv1.2 TLSv1.3;
