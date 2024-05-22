@@ -36,7 +36,4 @@ server {
       proxy_buffering off;
       proxy_request_buffering off;
     }
-
-
-
 }
